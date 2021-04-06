@@ -1,0 +1,22 @@
+{
+  "name": "harmony-safe-proxy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle-config.js",
+  "scripts": {
+    "compile": "npx truffle compile",
+    "test": "truffle test",
+    "deploy:testnet": "truffle migrate --reset --network testnet",
+    "deploy:mainnet": "truffle migrate --reset --network mainnet"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@harmony-js/contract": "^0.1.56",
+    "@harmony-js/core": "^0.1.57",
+    "chai": "^4.3.4",
+    "dotenv": "^8.2.0",
+    "eth-sig-util": "^3.0.1",
+    "tslib": "^2.1.0"
+  }
+}
